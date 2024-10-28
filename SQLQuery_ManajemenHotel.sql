@@ -1,0 +1,12 @@
+CREATE DATABASE Manajemen_Hotel;
+
+CREATE TABLE User_Table
+(
+	User_ID INT IDENTITY(1,1) NOT NULL,
+	User_Name VARCHAR(150) NOT NULL,
+	User_Password VARCHAR (150) NOT NULL,
+	CONSTRAINT User_Table_User_ID_PK PRIMARY KEY (User_ID)
+);
+
+INSERT INTO User_Table VALUES
+('NTU', '1176');
